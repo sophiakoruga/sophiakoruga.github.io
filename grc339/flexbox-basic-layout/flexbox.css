@@ -1,0 +1,100 @@
+
+body {
+	font-family: sans-serif;
+	line-height: 1.4em;
+	color: #222;
+	background-color: #fafafa;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+
+div.container {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 80em;
+	margin: auto;
+	gap: 1em;
+	padding: 2em 2em 0 2em;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	display: block;
+	padding: 0;
+}
+
+
+header {
+	flex: 1 0 100%;
+	padding: 0 1em;
+}
+
+article {
+	flex: 2 1 36em;
+	padding: 0 1em;
+}
+
+aside {
+	flex: 1 1 18em;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+
+figure {
+	margin: 0 0 1em 0;
+}
+
+h3 {
+	line-height: 1.2;
+	margin: 0.75em 0 0 0;
+}
+
+article p {
+	max-width: 40em;
+	margin-top: 0;
+}
+
+article h2 {
+	line-height: 1.2em;
+	margin-top: 1.5em;
+	margin-bottom: 0.75em;
+	max-width: 25em;
+}
+
+
+ol {
+	margin: 1.5em 0;
+	padding-left: 1em;
+	list-style-position: outside;
+	max-width: 40em;
+}
+
+ol li {
+	margin-bottom: 1em;
+}
+
+
+aside section {
+	background: #e8e6e6;
+	padding: 1em;
+}
+
+aside p {
+	margin: 0.25em 0 0 0;
+}
+
+
+footer {
+	flex: 1 0 100%;
+	border-top: 1px solid rgb(145, 143, 143);
+	margin-top: 2em;
+}
